@@ -5,6 +5,7 @@ Pa11y Webservice's API changes between major versions. This is a guide to help y
 ## Table of contents
 
 * [Table of contents](#table-of-contents)
+* [Migrating from 4.0 to 5.0](#migrating-from-40-to-50)
 * [Migrating from 3.0 to 4.0](#migrating-from-30-to-40)
 * [Migrating from 2.0 to 3.0](#migrating-from-20-to-30)
   * [PhantomJS to Headless Chrome](#phantomjs-to-headless-chrome)
@@ -12,6 +13,10 @@ Pa11y Webservice's API changes between major versions. This is a guide to help y
   * [Miscellaneous](#miscellaneous)
 * [Migrating from 1.0 to 2.0](#migrating-from-10-to-20)
   * [Node.js support](#nodejs-support-1)
+
+## Migrating from 4.0 to 5.0
+
+Pa11y Webservice 5 requires Node.js version `18` or `20`.
 
 ## Migrating from 3.0 to 4.0
 

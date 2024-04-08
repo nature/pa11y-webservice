@@ -197,7 +197,7 @@ NODE_ENV=test npm run load-fixtures
 
 ## Support and migration
 
-> [!NOTE]
+> [!TIP]
 > We maintain a [migration guide](MIGRATION.md) to help you migrate between major versions.
 
 When we release a new major version we will continue to support the previous major version for 6 months. This support will be limited to fixes for critical bugs and security issues. If you're opening an issue related to this project, please mention the specific version that the issue affects.

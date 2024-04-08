@@ -14,8 +14,8 @@ Use this service if you'd like to coordinate your testing by interacting with a 
 
 ## Requirements
 
-- [Node.js][node]: Each major version of Pa11y Webservice is designed to support a set of stable/LTS versions of Node.js. Pa11y Webservice 4 requires a stable (even-numbered) version of Node.js of 12 or above.
-- [MongoDB][mongo]: The service stores test results in a MongoDB database, and expects one to be available and running.
+- [Node.js][node]: Each major version of Pa11y Webservice is designed to support a set of stable/LTS versions of Node.js. Pa11y Webservice 5 requires Node.js `18` or `20`.
+- [MongoDB][mongo]: The service stores test results in a MongoDB database and expects one to be available and running.
 
 ### Pally Webservice 4 and Linux/Ubuntu
 

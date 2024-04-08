@@ -17,9 +17,9 @@ Use this service if you'd like to coordinate your testing by interacting with a 
 - [Node.js][node]: Each major version of Pa11y Webservice is designed to support a set of stable/LTS versions of Node.js. Pa11y Webservice 5 requires Node.js `18` or `20`.
 - [MongoDB][mongo]: The service stores test results in a MongoDB database and expects one to be available and running.
 
-### Pally Webservice 4 and Linux/Ubuntu
-Pa11y (and therefore this service) uses Headless Chrome to perform accessibility testing. On Linux and other Unix-like systems, Pa11y's attempt to install it as a dependency sometimes fails since additional operating system packages will be required. Your distribution's documentation should describe how to install these.
+### Pally Webservice 5 and Linux/Ubuntu
 
+This service depends on [Pa11y], which uses Headless Chrome to perform accessibility testing. On Linux and other Unix-like systems, Pa11y's attempt to install Headless Chrome as a dependency sometimes fails since additional operating system packages will be required. Your distribution's documentation should describe how to install these.
 
 ## Setup
 

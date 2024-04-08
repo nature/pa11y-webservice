@@ -8,9 +8,7 @@
   * Fixes compatibility with Ubuntu versions 20.04 and above. The [workaround](MIGRATION.md#migrating-from-30-to-40) documented for `pa11y-webservice@4` is no longer required.
 * Upgrade to `minimatch@3.1` from `3.0`
 
-### Full comparison to `4.3.1`
-
-* [4.3.1...5.0.0](https://github.com/pa11y/pa11y/compare/4.3.1...5.0.0)
+Full comparison to `4.3.1`: [4.3.1...5.0.0](https://github.com/pa11y/pa11y/compare/4.3.1...5.0.0)
 
 ## 4.3.1 (2023-11-15)
 

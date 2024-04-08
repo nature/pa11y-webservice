@@ -20,7 +20,7 @@ Pa11y Webservice 5 requires Node.js version `18` or `20`.
 
 ## Migrating from 3.0 to 4.0
 
-Pa11y Webservice 4 requires Node.js version 12 or greater. Versions 8 and 10 are not supported any more.
+Pa11y Webservice 4 requires Node.js version `12`, `14`, `16`, `18`, or `20`.
 
 ## Migrating from 2.0 to 3.0
 
@@ -32,7 +32,7 @@ As a result of this change, [Pa11y Webservice's requirements](../README.md#requi
 
 ### Node.js support
 
-Pa11y Webservice 3 requires Node.js version 8 or greater. Versions 4 and 6 are not supported any more.
+Pa11y Webservice 3 requires Node.js version `8` or `10`.
 
 ### Miscellaneous
 

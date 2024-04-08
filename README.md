@@ -207,9 +207,9 @@ The following table lists the major versions available and, for each previous ma
 | Major version | Final minor version | Node.js support          | Support end date |
 | :------------ | :-----------------  | :----------------------- | :--------------- |
 | `4`           |                     | `>= 12`                  | ✅ Current major version |
-| `3`           | `3.2.1`             | `8`, `10`                | 2022-05-26       |
-| `2`           | `2.3.1`             | `4`, `6`                 | 2020-01-04       |
-| `1`           | `1.11.1`            | `0.10`, `0.12`, `4`, `6` | 2016-12-05       |
+| `3`           | `3.2`               | `8`, `10`                    |                  | May 2022         |
+| `2`           | `2.3`               | `4`, `6`                     |                  | January 2020     |
+| `1`           | `1.11`              | `0.10`, `0.12`, `4`, `6`     |                  | December 2016    |
 
 ## License
 

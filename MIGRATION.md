@@ -22,6 +22,8 @@ Pa11y Webservice 5 requires Node.js version `18` or `20`.
 
 Pa11y Webservice 4 requires Node.js version `12`, `14`, `16`, `18`, or `20`.
 
+To run this version on Ubuntu 20.04 or above, a path to the Chrome executable must be defined in [chromeLaunchConfig](README#chromelaunchconfig-config-file-only), as `chromeLaunchConfig.executablePath`.
+
 ## Migrating from 2.0 to 3.0
 
 ### PhantomJS to Headless Chrome

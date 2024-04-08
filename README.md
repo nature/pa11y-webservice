@@ -18,10 +18,8 @@ Use this service if you'd like to coordinate your testing by interacting with a 
 - [MongoDB][mongo]: The service stores test results in a MongoDB database and expects one to be available and running.
 
 ### Pally Webservice 4 and Linux/Ubuntu
-
 Pa11y (and therefore this service) uses Headless Chrome to perform accessibility testing. On Linux and other Unix-like systems, Pa11y's attempt to install it as a dependency sometimes fails since additional operating system packages will be required. Your distribution's documentation should describe how to install these.
 
-In addition, to use Pa11y Webservice 4 with a version of Ubuntu above 20.04, a path to the Chrome executable must be defined in [chromeLaunchConfig](#chromelaunchconfig-config-file-only), as `chromeLaunchConfig.executablePath`. Version 5 of Pa11y Webservice, which will use Pa11y 7 along with a more recent version of Puppeteer, will resolve this issue.
 
 ## Setup
 

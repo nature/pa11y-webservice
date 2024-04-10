@@ -14,14 +14,12 @@ Use this service if you'd like to coordinate your testing by interacting with a 
 
 ## Requirements
 
-- [Node.js][node]: Each major version of Pa11y Webservice is designed to support a set of stable/LTS versions of Node.js. Pa11y Webservice 4 requires a stable (even-numbered) version of Node.js of 12 or above.
-- [MongoDB][mongo]: The service stores test results in a MongoDB database, and expects one to be available and running.
+- [Node.js][node]: Each major version of Pa11y Webservice is designed to support a set of stable/LTS versions of Node.js. Pa11y Webservice 5 requires Node.js `18` or `20`.
+- [MongoDB][mongo]: The service stores test results in a MongoDB database and expects one to be available and running.
 
-### Pally Webservice 4 and Linux/Ubuntu
+### Pally Webservice 5 and Linux/Ubuntu
 
-Pa11y (and therefore this service) uses Headless Chrome to perform accessibility testing. On Linux and other Unix-like systems, Pa11y's attempt to install it as a dependency sometimes fails since additional operating system packages will be required. Your distribution's documentation should describe how to install these.
-
-In addition, to use Pa11y Webservice 4 with a version of Ubuntu above 20.04, a path to the Chrome executable must be defined in [chromeLaunchConfig](#chromelaunchconfig-config-file-only), as `chromeLaunchConfig.executablePath`. Version 5 of Pa11y Webservice, which will use Pa11y 7 along with a more recent version of Puppeteer, will resolve this issue.
+This service depends on [Pa11y], which uses Headless Chrome to perform accessibility testing. On Linux and other Unix-like systems, Pa11y's attempt to install Headless Chrome as a dependency sometimes fails since additional operating system packages will be required. Your distribution's documentation should describe how to install these.
 
 ## Setup
 
@@ -197,19 +195,20 @@ NODE_ENV=test npm run load-fixtures
 
 ## Support and migration
 
-> [!NOTE]
+> [!TIP]
 > We maintain a [migration guide](MIGRATION.md) to help you migrate between major versions.
 
 When we release a new major version we will continue to support the previous major version for 6 months. This support will be limited to fixes for critical bugs and security issues. If you're opening an issue related to this project, please mention the specific version that the issue affects.
 
 The following table lists the major versions available and, for each previous major version, its end-of-support date, and its final minor version released.
 
-| Major version | Final minor version | Node.js support          | Support end date |
-| :------------ | :-----------------  | :----------------------- | :--------------- |
-| `4`           |                     | `>= 12`                  | ✅ Current major version |
-| `3`           | `3.2.1`             | `8`, `10`                | 2022-05-26       |
-| `2`           | `2.3.1`             | `4`, `6`                 | 2020-01-04       |
-| `1`           | `1.11.1`            | `0.10`, `0.12`, `4`, `6` | 2016-12-05       |
+| Major version | Final minor version | Node.js support              | [pa11y] version  | Support end date |
+| :------------ | :-----------------  | :--------------------------- | :--------------- | :--------------- |
+| `5`           |                     | `18`, `20`                   | `^8`             | ✅ Current major version |
+| `4`           | `4.3`               | `12`, `14`, `16`, `18`, `20` | `^6`             | October 2024     |
+| `3`           | `3.2`               | `8`, `10`                    | `^6`             | May 2022         |
+| `2`           | `2.3`               | `4`, `6`                     | `^4`             | January 2020     |
+| `1`           | `1.11`              | `0.10`, `0.12`, `4`, `6`     | `~3.7`           | December 2016    |
 
 ## License
 

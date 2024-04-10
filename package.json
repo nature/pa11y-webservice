@@ -1,6 +1,6 @@
 {
   "name": "pa11y-webservice",
-  "version": "4.3.1",
+  "version": "5.0.0",
   "engines": {
     "node": ">=18"
   },
